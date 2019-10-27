@@ -4,7 +4,7 @@ Exemplo de criação de um serviço com Docker e utilizando Laravel.
 Configuração inicial
 -----------
 
-#### Link do [Docker](https://docs.docker.com/).
+#### Link para instalação do [Docker](https://docs.docker.com/).
 ```console
 ~$ docker-compose up -d
 ~$ docker-compose ps
