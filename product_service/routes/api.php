@@ -19,3 +19,7 @@ Route::group(['middleware' => 'api', 'prefix' => 'auth'], function ($router) {
     Route::post('refresh', 'Auth\AuthController@refresh');
     Route::post('me', 'Auth\AuthController@me');
 });
+
+Route::group(['middleware' => 'api'], function ($router) {
+    Route::resource('product', 'Api\ProductController');
+});

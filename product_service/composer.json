@@ -9,9 +9,12 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "doctrine/dbal": "^2.9",
+        "enqueue/rdkafka": "^0.9.14",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^1.0",
+        "ramsey/uuid": "^3.8",
         "tymon/jwt-auth": "^1.0.0"
     },
     "require-dev": {
